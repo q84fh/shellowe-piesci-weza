@@ -1,6 +1,6 @@
 ---
 layout: image-x
-image: '/images/viper_cobra_together_600_frame.jpg'
+image: '/slides/images/viper_cobra_together_600_frame.jpg'
 imageOrder: 2
 ---
 
