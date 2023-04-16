@@ -31,11 +31,11 @@ htmlAttrs:
 
 # Shellowe Pięści Węża
 
-## Biblioteki [Cobra](https://cobra.dev) i [Viper](https://github.com/spf13/viper) w natarciu 
-
-[zotax](https://mateuszborowski.pl) & [q84fh](https://q84fh.net)
-
+## Biblioteki [Cobra](https://cobra.dev) i [Viper](https://github.com/spf13/viper) w natarciu  
+<br>
 <img src="/images/go_programming_language_mascot_and_two_snakes_as_friends_midjourney.png" style="width:25%; height:25%;margin:auto" class="m-40 h-40 rounded shadow" title="snakes" alt="Go Programming Language Mascot and two snakes as friends midjourney"/>
+
+[Mateusz 'zotax' Borowski](https://mateuszborowski.pl) & [Jakub 'q84fh' Skory](https://q84fh.net)
 
 <!-- Copy this block for every slide -->
 <BarBottom  title="Goat - Poznań Go Devs #7">
@@ -56,4 +56,8 @@ src: /slides/slide-3.md
 
 ---
 src: /slides/slide-4.md
+---
+
+---
+src: /slides/slide-fin.md
 ---
