@@ -1,4 +1,10 @@
-slide-4
+---
+layout: quote
+position: center
+---
+
+# Do czego te biblioteki się nadają?
+
 <!-- Copy this block for every slide -->
 <BarBottom  title="Goat - Poznań Go Devs #7">
   <Item text="Meetup">
