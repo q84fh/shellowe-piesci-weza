@@ -6,6 +6,15 @@ layout: two-cols
 
 # <img src="/images/viper_small_no_tran.png" class="w-10 inline"/> Viper
 
+ - Viper to rejestr konfiguracji, którą może brać z:
+   - domyślne zhardkodowane, albo wyliczone wartości
+   - pliki: JSON, TOML, YAML, HCL, envfile i Java properties
+   - zdalne systemy (etcd, Consul)
+   - zmienne środowiskowe ([12-Factor apps](https://12factor.net/pl/))
+   - flagi linii poleceń (Cobra!)
+   - można też ustawiać je dynamicznie podczas działania
+ 
+
 <BarBottom  title="Goat - Poznań Go Devs #7">
   <Item text=" ">
   </Item>
