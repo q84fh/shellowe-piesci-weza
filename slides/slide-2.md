@@ -8,7 +8,7 @@ imageOrder: 2
 
 ***
 
-- Dlaczego Cobra i Viper są *awesome*
+- Dlaczego Cobra i Viper są *awesome* ?
 - Kto za tym stoi i czy pozostanę bez wsparcia tydzień po wrzuceniu na proda?
 - Do czego te biblioteki się nadają?
 - Cobra

@@ -46,22 +46,37 @@ htmlAttrs:
 
 
 <!-- Use boilerplate.md for new slides -->
+<!-- Plan prezentacji -->
 ---
 src: /slides/slide-2.md
 ---
 
+<!-- Dlaczego Cobra i Viper są *awesome* ? - quote -->
 ---
 src: /slides/slide-3.md
 ---
 
+<!-- Dlaczego Cobra i Viper są *awesome* ? - happy people -->
+---
+src: /slides/slide-3a.md
+---
+
+<!-- Kto za tym stoi i czy pozostanę bez wsparcia tydzień po wrzuceniu na proda? -->
 ---
 src: /slides/slide-4.md
 ---
 
+<!-- Do czego te biblioteki się nadają? - quote -->
 ---
 src: /slides/slide-5.md
 ---
 
+<!-- Do czego te biblioteki się nadają? - tabelka -->
+---
+src: /slides/slide-5a.md
+---
+
+<!-- FIN -->
 ---
 src: /slides/slide-fin.md
 ---

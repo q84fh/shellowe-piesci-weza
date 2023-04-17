@@ -1,11 +1,12 @@
----
-layout: quote
-position: center
----
-
 # Dlaczego Cobra i Viper są *awesome* ?
 
-> *"It's simple, effective, and most importantly well documented."*
+## *Happy user noises*
+
+<img src="/images/happy_people_1.png" style="border-radius: 25px;">
+<img src="/images/happy_people_2.png" style="border-radius: 25px;">
+<img src="/images/happy_people_3.png" style="border-radius: 25px;">
+
+<twemoji-sparkling-heart class="text-3xl mx-100" />
 
 <!-- Copy this block for every slide -->
 <BarBottom  title="Goat - Poznań Go Devs #7">
