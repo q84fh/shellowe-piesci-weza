@@ -96,6 +96,11 @@ src: /slides/slide-6b.md
 src: /slides/slide-6c.md
 ---
 
+<!-- Cobra - rootCmd -->
+---
+src: /slides/slide-6d.md
+---
+
 <!-- FIN -->
 ---
 src: /slides/slide-fin.md

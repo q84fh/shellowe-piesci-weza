@@ -5,7 +5,7 @@ Aby użyć Cobry, należy odwzorować strukturę poleceń w plikach go. Dla klas
 ```
 .
 ├── cmd
-│   ├── cmd.go
+│   ├── root.go
 │   ├── cmdsub1.go
 │   └── cmdsub2.go
 └── main.go
