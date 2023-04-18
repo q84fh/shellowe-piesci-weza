@@ -121,6 +121,12 @@ src: /slides/slide-7.md
 src: /slides/slide-7a.md
 ---
 
+<!-- Viper - 12factors -->
+---
+src: /slides/slide-7b.md
+---
+
+
 <!-- Viper - demoz -->
 ---
 src: /slides/slide-8a.md
