@@ -106,6 +106,11 @@ src: /slides/slide-6d.md
 src: /slides/slide-7.md
 ---
 
+<!-- Viper - provides -->
+---
+src: /slides/slide-7a.md
+---
+
 <!-- FIN -->
 ---
 src: /slides/slide-fin.md

@@ -5,14 +5,12 @@ layout: two-cols
 <template v-slot:default>
 
 # <img src="/images/viper_small_no_tran.png" class="w-10 inline"/> Viper
-
- - Viper to rejestr konfiguracji, którą może brać z:
-   - domyślne zhardkodowane, albo wyliczone wartości
-   - pliki: JSON, TOML, YAML, HCL, INI, envfile i Java properties
-   - zdalne systemy (etcd, Consul)
-   - zmienne środowiskowe ([12-Factor apps](https://12factor.net/pl/))
-   - flagi linii poleceń (Cobra!)
-   - można też ustawiać je dynamicznie podczas działania
+ Viper to rejestr konfiguracji. 
+ 
+ Przechowuje wartości (zupełnie jak zmienne/stałe), ale okraszony jest sporą ilością cukru, który uprzyjemnia jego użycie i zdejmuje z naszych głów martwienie się o takie detale jak formaty
+ plików konfiguracyjnych, współpraca z flagami z linii poleceń, zmiennymi środowiskowymi i tym podobnymi drobiazgami. 
+ 
+ Pozwala po prostu szybko zacząć używać konfiguracji zamiast pisać samemu jej obsługę.
  
 
 <BarBottom  title="Goat - Poznań Go Devs #7">
@@ -24,6 +22,7 @@ layout: two-cols
 <template v-slot:right>
 
 # <img src="/images/cobra_small_no_tran.png" class="w-10 inline"/> Cobra
+ Cobra to biblioteka to tworzenia interfejsów CLI.
 
  Cobra zapewnia możliwość użycia flag zgodnych z [POSIX](https://pl.wikipedia.org/wiki/POSIX), zagnieżdżonych struktur poleceń, parametrów globalnych i lokalnych, niestandardowych wyjść pomocy lub autouzupełnień dla znanych powłok, takich jak Bash, Zsh lub nawet Powershell.
 
