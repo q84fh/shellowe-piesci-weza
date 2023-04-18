@@ -86,6 +86,16 @@ src: /slides/slide-6.md
 src: /slides/slide-6a.md
 ---
 
+<!-- Cobra - budowa CLI -->
+---
+src: /slides/slide-6b.md
+---
+
+<!-- Cobra - struktura, instalacja i import -->
+---
+src: /slides/slide-6c.md
+---
+
 <!-- FIN -->
 ---
 src: /slides/slide-fin.md
