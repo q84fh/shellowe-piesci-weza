@@ -111,7 +111,7 @@ src: /slides/slide-6e.md
 src: /slides/slide-6f.md
 ---
 
-<!-- Vuper - quote -->
+<!-- Viper - quote -->
 ---
 src: /slides/slide-7.md
 ---
@@ -119,6 +119,11 @@ src: /slides/slide-7.md
 <!-- Viper - provides -->
 ---
 src: /slides/slide-7a.md
+---
+
+<!-- Viper - demoz -->
+---
+src: /slides/slide-8a.md
 ---
 
 <!-- FIN -->
