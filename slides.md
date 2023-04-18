@@ -76,6 +76,16 @@ src: /slides/slide-5.md
 src: /slides/slide-5a.md
 ---
 
+<!-- Cobra - quote -->
+---
+src: /slides/slide-6.md
+---
+
+<!-- Cobra - provides -->
+---
+src: /slides/slide-6a.md
+---
+
 <!-- FIN -->
 ---
 src: /slides/slide-fin.md
