@@ -101,6 +101,11 @@ src: /slides/slide-6c.md
 src: /slides/slide-6d.md
 ---
 
+<!-- Vuper - quote -->
+---
+src: /slides/slide-7.md
+---
+
 <!-- FIN -->
 ---
 src: /slides/slide-fin.md

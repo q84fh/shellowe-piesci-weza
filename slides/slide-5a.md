@@ -8,7 +8,7 @@ layout: two-cols
 
  - Viper to rejestr konfiguracji, którą może brać z:
    - domyślne zhardkodowane, albo wyliczone wartości
-   - pliki: JSON, TOML, YAML, HCL, envfile i Java properties
+   - pliki: JSON, TOML, YAML, HCL, INI, envfile i Java properties
    - zdalne systemy (etcd, Consul)
    - zmienne środowiskowe ([12-Factor apps](https://12factor.net/pl/))
    - flagi linii poleceń (Cobra!)
