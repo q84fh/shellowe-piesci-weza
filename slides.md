@@ -101,6 +101,16 @@ src: /slides/slide-6c.md
 src: /slides/slide-6d.md
 ---
 
+<!-- Cobra - rootCmd oraz init() -->
+---
+src: /slides/slide-6e.md
+---
+
+<!-- Cobra - init() -->
+---
+src: /slides/slide-6f.md
+---
+
 <!-- Vuper - quote -->
 ---
 src: /slides/slide-7.md
