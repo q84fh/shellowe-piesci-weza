@@ -1,11 +1,15 @@
 ## Viper - co oferuje?
 
-- znajduje, ładuje i parsuje pliki konfiguracyjne: JSON, TOML, YAML, HCL, INI, envfile lub Java properties,
-- śledzenie zmiany,
-- domyślne wartości konfiguracji (hardkodowane, albo wyliczane przez program),
-- konfiguracja ze zmiennych środowiskowe ([12-Factor apps](https://12factor.net/pl/)),
-- nadpisywanie konfiguracji z linii poleceń,
-- mechanizm aliasów,
+Czyta konfiguracje z różnych źródeł (może na raz!):
+- domyślne wartości (hardkodowane, albo wyliczane przez program),
+- znajduje, ładuje i parsuje pliki: JSON, TOML, YAML, HCL, INI, envfile lub Java properties i śledzi w nich zmiany,
+- zmienne środowiskowe ([12-Factor apps](https://12factor.net/pl/)),
+- parametry z CLI,
+- zdalne systemy (etcd, Consul),
+- ... i nie tylko, można zaimplementować własne źródła, bo umie czytać z buforów.
+
+Do tego mamy:
+- mechanizm aliasów
 - dynamiczne ustawianie podczas działania programu.
 
 <!-- Copy this block for every slide -->
