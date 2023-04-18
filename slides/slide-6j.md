@@ -12,7 +12,7 @@ Did you mean this?
 
 <br>
 
-## <img src="/images/real_cobra.jpg" style="border-radius: 25px;" class="inline"> Cobra demo?
+## <img src="/images/real_cobra.jpg" style="border-radius: 25px;">
 
 <!-- Copy this block for every slide -->
 <BarBottom  title="Goat - Poznań Go Devs #7">

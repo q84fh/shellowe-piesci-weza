@@ -146,10 +146,19 @@ src: /slides/slide-7a.md
 src: /slides/slide-7b.md
 ---
 
-
 <!-- Viper - demoz -->
 ---
 src: /slides/slide-8a.md
+---
+
+<!-- Viper - Demo -->
+---
+src: /slides/slide-demo.md
+---
+
+<!-- Viper - Q&A -->
+---
+src: /slides/slide-qa.md
 ---
 
 <!-- FIN -->
