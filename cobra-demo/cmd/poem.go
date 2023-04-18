@@ -24,6 +24,7 @@ var poemCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		myPoem.poem(caps, low)
 	},
+	SuggestFor: []string{"wiersz"},
 }
 
 func init() {

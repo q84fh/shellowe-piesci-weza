@@ -96,22 +96,42 @@ src: /slides/slide-6b.md
 src: /slides/slide-6c.md
 ---
 
-<!-- Cobra - rootCmd -->
+<!-- Cobra - Minimum naszego CLI -->
 ---
 src: /slides/slide-6d.md
 ---
 
-<!-- Cobra - rootCmd oraz init() -->
+<!-- Cobra - Minimum naszego CLI - rootCmd -->
 ---
 src: /slides/slide-6e.md
 ---
 
-<!-- Cobra - init() -->
+<!-- Cobra - Minimum naszego CLI - init() -->
 ---
 src: /slides/slide-6f.md
 ---
 
-<!-- Viper - quote -->
+<!-- Cobra - Minimum naszego CLI - Flagi -->
+---
+src: /slides/slide-6g.md
+---
+
+<!-- Cobra - Minimum naszego CLI - Argumenty -->
+---
+src: /slides/slide-6h.md
+---
+
+<!-- Cobra - Sugestie przy błędnych komendach -->
+---
+src: /slides/slide-6i.md
+---
+
+<!-- Sugestie przy błędnych komendach - SuggestFor -->
+---
+src: /slides/slide-6j.md
+---
+
+<!-- Vuper - quote -->
 ---
 src: /slides/slide-7.md
 ---
