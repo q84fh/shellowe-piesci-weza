@@ -12,7 +12,7 @@
 * Automatycznie generowane strony man dla Twojej aplikacji
 * Aliasy poleceń, dzięki czemu można zmieniać rzeczy bez ich naruszania
 * Elastyczność definiowania własnej pomocy, użycia, itp.
-* Opcjonalna ścisła integracja z viperem dla aplikacji [12-factor](https://12factor.net/).
+* Opcjonalna ścisła integracja z viperem dla aplikacji [12-factor](https://12factor.net/pl/).
 
 <!-- Copy this block for every slide -->
 <BarBottom  title="Goat - Poznań Go Devs #7">
