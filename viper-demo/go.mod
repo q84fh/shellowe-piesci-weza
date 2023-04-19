@@ -1,4 +1,4 @@
-module viper-demo
+module viper-test
 
 go 1.20
 

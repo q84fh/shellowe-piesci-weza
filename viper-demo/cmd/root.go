@@ -27,7 +27,7 @@ var cfgFile string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "viper-demo",
+	Use:   "viper-test",
 	Short: "A brief description of your application",
 	Long: `A longer description that spans multiple lines and likely contains
 examples and usage of using your application. For example:
@@ -38,7 +38,7 @@ to quickly create a Cobra application.`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Printf("Content dir: %s\n", viper.Get("contentdir"))
+		fmt.Printf("Test: %s\n", viper.Get("test"))
 	},
 }
 
@@ -58,14 +58,10 @@ func init() {
 	// Cobra supports persistent flags, which, if defined here,
 	// will be global for your application.
 
-	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.viper-demo.yaml)")
+	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.viper-test.yaml)")
 
-	rootCmd.PersistentFlags().StringP("contentdir", "c", "content", "directory for ur content")
-	viper.BindPFlag("contentdir", rootCmd.PersistentFlags().Lookup("contentdir"))
-
-	// Cobra also supports local flags, which will only run
-	// when this action is called directly.
-	rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	rootCmd.PersistentFlags().StringP("test", "t", "wartość domyślna", "to jest testowa flaga")
+	viper.BindPFlag("test", rootCmd.PersistentFlags().Lookup("test"))
 }
 
 // initConfig reads in config file and ENV variables if set.
@@ -78,13 +74,13 @@ func initConfig() {
 		home, err := os.UserHomeDir()
 		cobra.CheckErr(err)
 
-		// Search config in home directory with name ".viper-demo" (without extension).
+		// Search config in home directory with name ".viper-test" (without extension).
 		viper.AddConfigPath(home)
 		viper.AddConfigPath(".")
 		viper.SetConfigType("yaml")
-		viper.SetConfigName(".viper-demo")
+		viper.SetConfigName("test")
 	}
-	viper.SetEnvPrefix("DEMO")
+	viper.SetEnvPrefix("GO")
 	viper.AutomaticEnv() // read in environment variables that match
 
 	// If a config file is found, read it in.

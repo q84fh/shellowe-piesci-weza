@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "viper-demo/cmd"
+import "viper-test/cmd"
 
 func main() {
 	cmd.Execute()
