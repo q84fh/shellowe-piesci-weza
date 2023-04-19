@@ -37,7 +37,9 @@ This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
-	// Run: func(cmd *cobra.Command, args []string) { },
+	Run: func(cmd *cobra.Command, args []string) {
+		fmt.Printf("Content dir: %s\n", viper.Get("contentdir"))
+	},
 }
 
 // Execute adds all child commands to the root command and sets flags appropriately.
@@ -58,6 +60,9 @@ func init() {
 
 	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.viper-demo.yaml)")
 
+	rootCmd.PersistentFlags().StringP("contentdir", "c", "content", "directory for ur content")
+	viper.BindPFlag("contentdir", rootCmd.PersistentFlags().Lookup("contentdir"))
+
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.
 	rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
@@ -75,10 +80,11 @@ func initConfig() {
 
 		// Search config in home directory with name ".viper-demo" (without extension).
 		viper.AddConfigPath(home)
+		viper.AddConfigPath(".")
 		viper.SetConfigType("yaml")
 		viper.SetConfigName(".viper-demo")
 	}
-
+	viper.SetEnvPrefix("DEMO")
 	viper.AutomaticEnv() // read in environment variables that match
 
 	// If a config file is found, read it in.

@@ -151,6 +151,46 @@ src: /slides/slide-7b.md
 src: /slides/slide-8a.md
 ---
 
+<!-- Viper - demoz -->
+---
+src: /slides/slide-8b.md
+---
+
+<!-- Viper - demoz -->
+---
+src: /slides/slide-8c.md
+---
+
+<!-- Viper - demoz -->
+---
+src: /slides/slide-8d.md
+---
+
+<!-- Viper - demoz -->
+---
+src: /slides/slide-8e.md
+---
+
+<!-- Viper - demoz -->
+---
+src: /slides/slide-8f.md
+---
+
+<!-- Viper - demoz -->
+---
+src: /slides/slide-8g.md
+---
+
+<!-- Viper - demoz -->
+---
+src: /slides/slide-8h.md
+---
+
+<!-- Viper - demoz -->
+---
+src: /slides/slide-8i.md
+---
+
 <!-- Viper - Demo -->
 ---
 src: /slides/slide-demo.md

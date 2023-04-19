@@ -1,24 +1,19 @@
-## Viper - quickstart
+## Viper: kolejność
 
-```bash
-$ go mod init viper-demo;
-$ go get github.com/spf13/viper;
-$ go install github.com/spf13/cobra-cli@latest;
-$ cobra-cli init --author "Wielki Szu" --license apache --viper
-$ ls                                                                                                                                                                                              ~/Projekty/Goats/
-cmd  go.mod  go.sum  LICENSE  main.go
-$ go build
-$ viper-demo
-A longer description that spans multiple lines and likely contains
-examples and usage of using your application. For example:
+Kolejność na wypadek, gdyby klucz występował w wielu źródłach (najważniejsze na górze):
 
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.
-```
+- bezpośrednie zawołanie `viper.Set()`
+- flagi z CLI
+- zmienne środowiskowe
+- pliki konfiguracyjne
+- systemy klucz/wartość (Etcd etc.)
+- domyślne wartości
 
-
-
+Gwiazdki:
+- (obecnie) klucze są nieczułe na wielkość liter
+- można wczytać jeden plik konfiguracyjny na raz
+  - ... ale można go poszukiwać w wielu ścieżkach posortowanych ważnością
+  - ... można mieć też wiele Viperów w jednej aplikacji
 
 <!-- Copy this block for every slide -->
 <BarBottom  title="Goat - Poznań Go Devs #7">
