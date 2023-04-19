@@ -11,7 +11,7 @@ Aby użyć Cobry, należy odwzorować strukturę poleceń w plikach go. Dla klas
 └── main.go
 ```
 
-W `cmd.go` ulokujemy *najniższy* poziom naszych komend, czyli `rootCmd` naszej aplikacji CLI. W sąsiadujących plikach zawrzemy podkomendy.
+W `root.go` ulokujemy *najniższy* poziom naszych komend, czyli `rootCmd` naszej aplikacji CLI. W sąsiadujących plikach zawrzemy podkomendy.
 
 ***
 

@@ -5,7 +5,7 @@ Argumenty przekazane do polecenia są dostępne pod `args - []string{}`.
 Wbudowane są następujące walidatory:
 
 - NoArgs - polecenie zgłosi błąd, jeśli istnieją jakiekolwiek argumenty pozycyjne.
-ArbitraryArgs - polecenie przyjmie dowolne argumenty.
+- ArbitraryArgs - polecenie przyjmie dowolne argumenty.
 - OnlyValidArgs - polecenie zgłosi błąd, jeśli istnieją jakiekolwiek argumenty pozycyjne, które nie znajdują się w polu ValidArgs polecenia.
 - MinimumNArgs(int) - polecenie zgłosi błąd, jeśli nie ma co najmniej N argumentów pozycyjnych.
 - MaximumNArgs(int) - polecenie zgłosi błąd, jeśli istnieje więcej niż N argumentów pozycyjnych.
